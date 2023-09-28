@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;  
+    }
+  div{
+      padding: 5px;
+      margin: 0px;
+  }
+  .navbar{
+      border: 1px solid black;
+      background-color: dodgerblue;
+      border-radius: 5px;
+  }
+  #youtube{
+      background-color: paleturquoise;
+  }
+  #youtube a{
+      color: rgba(206, 106, 14, 0.562);
+  }
+  #facebook{
+      background-color: darkslategray;
+  }
+  #facebook a{
+      color: honeydew;
+  }
+  #github{
+      background-color: mediumorchid;
+  }
+  #github a{
+      color: gray;
+  }
+  #twitter{
+      background-color: darkgray;
+  }
+  #twitter a{
+      color: lightcoral;
+  }
+  #instagram{
+      background-color: beige;
+  }
+  #instagram a{
+      color: lime;
+  }
+  .links{
+      border: 1px solid black;
+      display: inline;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-transform: uppercase;
+      font-weight: 600;
+      opacity: 0.7;
+      transition: .4s;
+  }
+  .links:hover{
+      opacity: 1;
+      transition: .4s;
+      font-size: larger;
+      padding: 10px;
+      font-family: 'Open Sans';
+  }
+  #linksgroup{
+      text-align: center;
+  }
+  .links a{
+      text-decoration: none;
+  }
+  .banner{
+    background-image: url('images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+  }
+  .bannertext{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+  }
+  .bannertext h2{
+    text-transform: uppercase;
+    font-size: 4em;
+    color: rgb(196, 104, 18)
+  }
+  .bannertext h2 span{
+    color: rgb(218, 137, 16);
+  }
+  .bannertext p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(31, 28, 28);
+    margin-top: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
